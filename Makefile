@@ -1,7 +1,6 @@
 CC = gcc
 CFLAGS = -Wall
 
-# Target to build the final executable
 all: file_system
 
 file_system: main.o fs_node.o operations.o navigation.o
